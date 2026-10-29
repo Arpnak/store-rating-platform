@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { useNavigate, Link } from "react-router-dom";
-import { authApi } from "../../api/services";
+import { authApi } from "../api/services";
 
 const passwordRules = "Minimum 8 characters, one uppercase letter, one special character.";
 
